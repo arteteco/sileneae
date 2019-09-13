@@ -1,0 +1,8 @@
+Trees acquired from PAUP using Mesquite's Zephyr package. 
+PAUP run on local computer 
+Analysis started Fri Sep 13 16:51:28 CEST 2019
+User on originating (local) computer: tombom
+------------------------------------------
+Taxa: Taxa
+Matrix: Character Matrix
+Number of taxa analyzed: 8

@@ -1,0 +1,28 @@
+#NEXUS
+[ID: 7633687804]
+begin taxa;
+	dimensions ntax=8;
+	taxlabels
+		Aarmeria
+		Vasterias
+		Acompactum
+		Arupestre
+		Vatropurpurea
+		Areuteranium
+		Vvulgaris
+		Valpina
+		;
+end;
+begin trees;
+	translate
+		1	Aarmeria,
+		2	Vasterias,
+		3	Acompactum,
+		4	Arupestre,
+		5	Vatropurpurea,
+		6	Areuteranium,
+		7	Vvulgaris,
+		8	Valpina
+		;
+   tree con_50_majrule = [&U] (1[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:5.410059e-03[&length_mean=5.59793600e-03,length_median=5.41005900e-03,length_95%HPD={2.66660200e-03,9.12831600e-03}],4[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:5.281325e-03[&length_mean=5.50175878e-03,length_median=5.28132500e-03,length_95%HPD={2.28681100e-03,8.63508100e-03}],(((2[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:4.822290e-03[&length_mean=4.98162590e-03,length_median=4.82229000e-03,length_95%HPD={2.00697900e-03,8.11732500e-03}],(5[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:3.802635e-04[&length_mean=5.65018933e-04,length_median=3.80263500e-04,length_95%HPD={3.64657000e-07,1.69183000e-03}],7[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.369617e-03[&length_mean=1.55571069e-03,length_median=1.36961700e-03,length_95%HPD={1.73535700e-06,3.40565700e-03}])[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:2.150086e-03[&length_mean=2.33160472e-03,length_median=2.15008600e-03,length_95%HPD={2.27632600e-04,4.51796000e-03}])[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:3.106146e-03[&length_mean=3.30006421e-03,length_median=3.10614600e-03,length_95%HPD={9.39742500e-04,5.87080000e-03}],8[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:7.533686e-03[&length_mean=7.74462956e-03,length_median=7.53368600e-03,length_95%HPD={4.00273100e-03,1.20005800e-02}])[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:1.425604e-02[&length_mean=1.44412261e-02,length_median=1.42560400e-02,length_95%HPD={9.15006800e-03,2.00451100e-02}],(3[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:3.952389e-04[&length_mean=5.60969746e-04,length_median=3.95238900e-04,length_95%HPD={1.50043500e-07,1.68349900e-03}],6[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0"]:2.735552e-03[&length_mean=2.94334684e-03,length_median=2.73555200e-03,length_95%HPD={6.50996800e-04,5.65277700e-03}])[&prob=9.85352863e-01,prob_stddev=3.76621455e-03,prob_range={9.82689747e-01,9.88015979e-01},prob(percent)="99",prob+-sd="99+-0"]:1.466120e-03[&length_mean=1.66472827e-03,length_median=1.46612000e-03,length_95%HPD={1.34977700e-04,3.50272300e-03}])[&prob=9.98002663e-01,prob_stddev=9.41553637e-04,prob_range={9.97336884e-01,9.98668442e-01},prob(percent)="100",prob+-sd="100+-0"]:1.464694e-03[&length_mean=1.66142480e-03,length_median=1.46469400e-03,length_95%HPD={1.05793800e-04,3.48118000e-03}]);
+end;

@@ -1,0 +1,15 @@
+#NEXUS[written Fri Sep 13 16:59:17 CEST 2019 by Mesquite  version 3.6 (build 917) at blu/127.0.1.1]
+BEGIN TREES;
+[! Trees from source: 'Current Tree (Tree(s) used from PAUP NJ Tree (Matrix: Character Matrix). Last tree used: PAUP_1  [tree: (1:2,(4:9,((3:0.0,6:2):2,(8:11,(2:7,(5:0.0,7:1):4):2):16):2):7):0.0;] )']
+	TRANSLATE
+		1	Aarmeria,
+		2	Vasterias,
+		3	Acompactum,
+		4	Arupestre,
+		5	Vatropurpurea,
+		6	Areuteranium,
+		7	Vvulgaris,
+		8	Valpina;
+	TREE 'PAUP_1' = (1:2,(4:9,((3:0.0,6:2):2,(8:11,(2:7,(5:0.0,7:1):4):2):16):2):7):0.0;
+END;
+

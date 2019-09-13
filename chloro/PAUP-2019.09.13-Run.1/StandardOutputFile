@@ -1,0 +1,87 @@
+
+P A U P *
+Version 4.0a (build 166) for Unix/Linux (built on Sep  1 2019 at 20:35:05)
+Fri Sep 13 16:51:28 2019
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Running on Intel(R) 64 architecture
+SSE vectorization enabled
+SSSE3 instructions supported
+Multithreading enabled for likelihood using Pthreads
+Compiled using GNU C compiler (gcc) 4.8.4
+
+Note: Attempt to get current version info from server was not successful (timeout limit exceeded).
+      You can do "checkVersion timeout=<number-of-seconds>;" at the PAUP* command prompt to get
+      current version info from our server with a longer timeout period.
+
+Processing of file "~/Documents/uni/filogenesiVegetale/elaborato/files/chloro/PAUP-2019.09.13-
+Run.1/PAUPCommands.txt" begins...
+
+        -----------------------------NOTICE-----------------------------
+          This is a test version that is still changing rapidly.
+          Please report bugs to dave@phylosolutions.com
+        ----------------------------------------------------------------
+
+Logging output to file "~/Documents/uni/filogenesiVegetale/elaborato/files/chloro/PAUP-2019.09.13-
+Run.1/paupLogFile.txt".
+
+Processing of file "~/Documents/uni/filogenesiVegetale/elaborato/files/chloro/PAUP-2019.09.13-
+Run.1/dataFile.nex" begins...
+
+Data read in DNA format
+
+Data matrix has 8 taxa, 867 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Character types changed:
+  Of 867 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+
+Processing of input file "dataFile.nex" completed.
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken systematically
+  Distance measure = uncorrected ("p")
+  867 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+Neighbor-joining tree:
+
+/ Aarmeria
++ Arupestre
++ Acompactum
+|     /------- Areuteranium
+\-----+                                                    /------------- Valpina
+      \----------------------------------------------------+                  /- Vvulgaris
+                                                           \------------------+/------ Vasterias
+                                                                              \+ Vatropurpurea
+
+Tree found by neighbor-joining method stored in tree buffer
+Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
+
+1 tree converted from unrooted to rooted using outgroup method
+
+1 tree saved to file "~/Documents/uni/filogenesiVegetale/elaborato/files/chloro/PAUP-2019.09.13-
+Run.1/output.tre"
+
+Logging of output to file "paupLogFile.txt" discontinued.

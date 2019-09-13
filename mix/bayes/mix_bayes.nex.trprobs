@@ -1,0 +1,23 @@
+#NEXUS
+[ID: 7633687804]
+[This file contains the trees that were found during the MCMC
+search, sorted by posterior probability. "p" indicates the
+posterior probability of the tree whereas "P" indicates the
+cumulative posterior probability.]
+
+begin trees;
+   translate
+    1 Aarmeria,
+    2 Vasterias,
+    3 Acompactum,
+    4 Arupestre,
+    5 Vatropurpurea,
+    6 Areuteranium,
+    7 Vvulgaris,
+    8 Valpina;
+   tree tree_1 [p = 0.983, P = 0.983] = [&W 0.983356] (4,((8,((7,5),2)),(6,3)),1);
+   tree tree_2 [p = 0.014, P = 0.997] = [&W 0.013981] (4,((6,(8,((7,5),2))),3),1);
+   tree tree_3 [p = 0.001, P = 0.999] = [&W 0.001332] ((4,(8,((7,5),2))),(6,3),1);
+   tree tree_4 [p = 0.001, P = 0.999] = [&W 0.000666] ((8,((7,5),2)),(4,(6,3)),1);
+   tree tree_5 [p = 0.001, P = 1.000] = [&W 0.000666] (4,(6,((8,((7,5),2)),3)),1);
+end;

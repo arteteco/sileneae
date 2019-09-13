@@ -1,0 +1,60 @@
+
+P A U P *
+Version 4.0a (build 166) for Unix/Linux (built on Sep  1 2019 at 20:35:05)
+Fri Sep 13 16:51:29 2019
+
+
+Processing of file "~/Documents/uni/filogenesiVegetale/elaborato/files/chloro/PAUP-2019.09.13-
+Run.1/dataFile.nex" begins...
+
+Data read in DNA format
+
+Data matrix has 8 taxa, 867 characters
+Valid character-state symbols: ACGT
+Missing data identified by '?'
+Gaps identified by '-'
+"Equate" macros in effect:
+   R,r ==> {AG}
+   Y,y ==> {CT}
+   M,m ==> {AC}
+   K,k ==> {GT}
+   S,s ==> {CG}
+   W,w ==> {AT}
+   H,h ==> {ACT}
+   B,b ==> {CGT}
+   V,v ==> {ACG}
+   D,d ==> {AGT}
+   N,n ==> {ACGT}
+
+Character types changed:
+  Of 867 total characters:
+    All characters are of type 'unord'
+    All characters have equal weight
+
+Processing of input file "dataFile.nex" completed.
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken systematically
+  Distance measure = uncorrected ("p")
+  867 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+Neighbor-joining tree:
+
+/ Aarmeria
++ Arupestre
++ Acompactum
+|     /------- Areuteranium
+\-----+                                                    /------------- Valpina
+      \----------------------------------------------------+                  /- Vvulgaris
+                                                           \------------------+/------ Vasterias
+                                                                              \+ Vatropurpurea
+
+Tree found by neighbor-joining method stored in tree buffer
+Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
+
+1 tree converted from unrooted to rooted using outgroup method
+
+1 tree saved to file "~/Documents/uni/filogenesiVegetale/elaborato/files/chloro/PAUP-2019.09.13-
+Run.1/output.tre"

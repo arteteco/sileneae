@@ -1,0 +1,23 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Sep 13 16:58:53 2019]
+[!
+>Data file = dataFile.nex
+>Neighbor-joining search settings:
+>  Ties (if encountered) will be broken systematically
+>  Distance measure = uncorrected ("p")
+>  All characters have equal weight
+>  (Tree is unrooted)
+]
+	Translate
+		1 Aarmeria,
+		2 Vasterias,
+		3 Acompactum,
+		4 Arupestre,
+		5 Vatropurpurea,
+		6 Areuteranium,
+		7 Vvulgaris,
+		8 Valpina
+		;
+tree 'PAUP_1' = [&R] (1:2,((((2:7,(5:0,7:1):4):2,8:11):16,(3:0,6:2):2):2,4:9):7):0;
+End;
